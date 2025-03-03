@@ -2,7 +2,7 @@ import cv2
 from PIL import Image
 from tqdm import tqdm
 import os
-from bluenoise.get_noise_recent import get_noise_v2
+from bndm.bluenoise.get_noise_recent import get_noise_v2
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
