@@ -2,12 +2,12 @@ import cv2
 from PIL import Image
 from tqdm import tqdm
 import os
-from bndm.bluenoise.get_noise_recent import get_noise_v2
+from bluenoise.get_noise_recent import get_noise_v2
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('./bndm')
+sys.path.append('./contents/bndm')
 os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
 
 
