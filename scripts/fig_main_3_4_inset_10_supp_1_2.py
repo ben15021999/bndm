@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('./contents/bndm')
+sys.path.append('./bndm')
 os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
 
 
