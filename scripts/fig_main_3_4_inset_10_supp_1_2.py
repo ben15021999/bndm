@@ -3,7 +3,7 @@ from PIL import Image
 from tqdm import tqdm
 import os
 import sys
-sys.path.append('./contents/bndm')
+sys.path.append('./bndm')
 from bluenoise.get_noise_recent import get_noise_v2
 import numpy as np
 import torch
